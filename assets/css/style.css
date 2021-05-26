@@ -12,8 +12,6 @@ body {
     color: #001400;
 }
 
-/* header */
-
 h1, h2 {
     font-family: 'Gloria Hallelujah', cursive;
     font-weight: 400;
@@ -22,17 +20,21 @@ h1, h2 {
     color: #330033;
 }
 
+/* logo and nav */
+
 #logo > img {
     height: 150px;
     width: auto;
     float: left;
     padding-left: 1rem;
     margin-left: 50px;
+    /* position: fixed; */
 }
 
 #menu {
-    font-size: 110%;
+    font-size: 125%;
     padding: 1rem 1rem;
+    /* position: fixed; */
 }
 
 #menu, #logo {
@@ -58,7 +60,7 @@ h1, h2 {
     border-bottom: 1px solid #001400;
 }
 
-.menu-red > a:hover {
+.menu-red a:hover {
     background-color: rgba(255, 0, 0, 0.5);
 }
 
@@ -70,12 +72,6 @@ h1, h2 {
     background-color: rgba(0, 0, 255, 0.5);
 }
 
-
-
-/* header {
-    position: absolute;
-} */
-
 hr {
     display: block;
     height: 1px;
@@ -84,4 +80,48 @@ hr {
     margin: 0 5%;
     color: #001400;
     background-color: #001400;
+}
+
+.fixed-top {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    /* background-color: #ffffff; */
+}
+
+
+
+
+/* footer  */
+
+.text-center {
+    text-align: center;
+}
+
+footer p {
+    font-size: 125%;
+}
+
+.social-media > li {
+    display: inline;
+}
+
+.social-media i {
+    font-size: 200%;
+    margin: 1%;
+    padding: 10px;
+    color: #330033;
+    border-radius: 10%;
+}
+
+.social-red i:hover {
+    background-color: rgba(255, 0, 0, 0.5);
+}
+
+.social-yellow i:hover {
+    background-color: rgba(255, 255, 0, 0.5);
+}
+
+.social-blue i:hover {
+    background-color: rgba(0, 0, 255, 0.5);
 }

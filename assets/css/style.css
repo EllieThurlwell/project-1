@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Montserrat&display=swap');
+
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Montserrat, sans-serif;
+    font-weight: 400;
+    color: #1c121d;
+}
+
+h1, h2 {
+    font-family: 'Gloria Hallelujah', cursive;
+    font-weight: 400;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    color: #001400;
+}
+
+#logo > img {
+    height: 150px;
+    width: auto;
+    float: left;
+    padding: 1rem 1rem;
+}

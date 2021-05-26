@@ -9,15 +9,17 @@
 body {
     font-family: Montserrat, sans-serif;
     font-weight: 400;
-    color: #1c121d;
+    color: #001400;
 }
+
+/* header */
 
 h1, h2 {
     font-family: 'Gloria Hallelujah', cursive;
     font-weight: 400;
     text-transform: capitalize;
     letter-spacing: 2px;
-    color: #001400;
+    color: #330033;
 }
 
 #logo > img {
@@ -25,4 +27,40 @@ h1, h2 {
     width: auto;
     float: left;
     padding: 1rem 1rem;
+    margin-left: 50px;
+}
+
+#menu {
+    font-size: 110%;
+    padding: 1rem 1rem;
+}
+
+#menu, #logo {
+    line-height: 125px;
+}
+
+#menu li {
+    float: right;
+    margin-right: 50px;
+    list-style-type: none;
+    display: inline;
+}
+
+#menu a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#menu a:hover {
+    border-bottom: 1px solid #001400;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    width: 90%;
+    text-align: center;
+    margin: 0 5%;
+    color: #001400;
+    background-color: #001400;
 }

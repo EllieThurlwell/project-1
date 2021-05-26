@@ -34,6 +34,7 @@ h1, h2 {
 #menu {
     font-size: 125%;
     padding: 1rem 1rem;
+    text-align: right;
     /* position: fixed; */
 }
 
@@ -42,23 +43,22 @@ h1, h2 {
 }
 
 #menu li {
-    float: right;
-    margin-right: 50px;
-    padding: 2px;
-    list-style-type: none;
     display: inline;
-    height: 1.5rem;
-    position: relative;
+    list-style-type: none;
 }
 
 #menu a {
     text-decoration: none;
-    padding: 2px 2px;
+    font-size: 100%;
+    margin: 1%;
+    padding: 10px;
+    color: #330033;
+    border-radius: 10%;
 }
 
-#menu a:hover {
+/* #menu a:hover {
     border-bottom: 1px solid #001400;
-}
+} */
 
 .menu-red a:hover {
     background-color: rgba(255, 0, 0, 0.5);
@@ -89,7 +89,9 @@ hr {
     /* background-color: #ffffff; */
 }
 
-
+.heading {
+    font-size: xx-large;
+}
 
 
 /* footer  */

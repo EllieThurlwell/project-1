@@ -8,15 +8,15 @@
 
 body {
     font-family: Montserrat, sans-serif;
-    font-weight: 400;
+    /* font-weight: 400; */
     color: #001400;
 }
 
 h1, h2 {
     font-family: 'Gloria Hallelujah', cursive;
-    font-weight: 400;
+    /* font-weight: 400; */
     text-transform: capitalize;
-    letter-spacing: 2px;
+    letter-spacing: 0.1rem;
     color: #330033;
 }
 
@@ -24,34 +24,34 @@ h1, h2 {
 
 #logo > img {
     height: 150px;
-    width: auto;
-    float: left;
-    padding-left: 1rem;
-    margin-left: 50px;
+    /* width: auto; */
+    /* float: left; */
+    padding-left: 2rem;
+    /* margin-left: 50px; */
     /* position: fixed; */
 }
 
-#menu {
-    font-size: 100%;
-    padding: 1rem 1rem;
-    text-align: right;
-    /* position: fixed; */
-}
+/* #menu {
+    font-size: 100%; */
+    /* padding: 1rem 1rem; */
+    /* text-align: right; */
+    /* position: fixed;
+} */
 
-#menu, #logo {
+/* #menu, #logo {
     line-height: 125px;
-}
+} */
 
 #menu li {
-    display: inline;
+    display: inline-block;
     list-style-type: none;
 }
 
 #menu a {
     text-decoration: none;
-    font-size: 100%;
-    margin: 1%;
-    padding: 10px;
+    /* font-size: 100%; */
+    /* margin: 1%; */
+    padding: 1rem;
     color: #330033;
     border-radius: 10%;
 }
@@ -72,6 +72,153 @@ h1, h2 {
     background-color: rgba(0, 0, 255, 0.5);
 }
 
+
+
+.fixed-top {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 4px 1px 10px 1px grey;
+}
+
+/* body sections */
+
+.heading {
+    text-align: center;
+    font-size: 2rem;
+    /* padding: 1em; */
+    margin-bottom: 1rem;
+    clear: both;
+    /* position: relative; */
+}
+
+section p, section li {
+    text-align: left;
+    margin: auto 10rem;
+    font-size: 125%;
+    line-height: 2em;
+}
+
+/* mona lisa */
+
+#mona-lisa {
+    margin-top: 10rem;
+}
+
+#mona-lisa-img {
+    width: 33%;
+    margin: auto 33%;
+}
+
+/* who is */
+
+#who-is-left-list {
+    padding-top: 30px;
+    width: 33%;
+    float: left;
+}
+
+#who-is-right-img {
+    margin: 30px auto 50px;
+    width: 66%;
+}
+
+#detail-img-one {
+    width: 600px;
+    margin-right: 33%;
+}
+
+#who-is-right-img, #detail-img-one {
+    float: right;
+}
+
+#who-is-left-list li {
+    margin-left: 33%;
+    text-align: left;
+}
+
+#who-is-right-img ~ div {
+    clear: both;
+}
+
+#who-is-right-list {
+    padding-top: 30px;
+    width: 33%;
+    float: right;
+    background-color: green;
+}
+
+#who-is-right-list li {
+    margin-right: 50%;
+    text-align: left;
+}
+
+#who-is-left-img {
+    margin: 30px auto 50px;
+    width: 66%;
+    background-color: red;
+}
+
+#detail-img-two {
+    width: 600px;
+    margin-left: 33%;
+}
+
+#who-is-left-img, #detail-img-two {
+    float: left;
+}
+
+/* where is */
+
+#louvre-img {
+    width: 33%;
+    margin: 30px 33% 50px;
+}
+
+#where-is-left {
+    width: 66%;
+    float: left;
+}
+
+#where-is-right {
+    width: 33%;
+    float: right;
+}
+
+#where-is-map {
+    width: 66%;
+    height: 15rem;
+}
+
+/* who painted */
+
+#who-painted-left {
+    width: 33%;
+    float: left;
+}
+
+#leonardo-img {
+    height: 600px;
+    margin-left: 33%;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+#who-painted-right {
+    width: 66%;
+    float: right;
+}
+
+#who-painted-right > #who-painted-p-one {
+    padding-top: 10%;
+}
+
+/* footer  */
+
 hr {
     display: block;
     height: 1px;
@@ -82,32 +229,9 @@ hr {
     background-color: #001400;
 }
 
-.fixed-top {
-    width: 100%;
-    position: fixed;
-    top: 0;
-    background-color: #ffffff;
+footer {
+    padding-top: 5rem;
 }
-
-/* body sections */
-
-.heading {
-    text-align: center;
-    font-size: xx-large;
-    padding: 1em;
-    margin: 2rem;
-    clear: both;
-    /* position: relative; */
-}
-
-section p, section li {
-    text-align: left;
-    margin: auto 10%;
-    font-size: 125%;
-    line-height: 2em;
-}
-
-/* footer  */
 
 .text-center {
     text-align: center;
@@ -123,9 +247,9 @@ footer p {
 }
 
 .social-media i {
-    font-size: 200%;
+    font-size: 2rem;
     margin: 1%;
-    padding: 10px;
+    padding: 1rem;
     color: #330033;
     border-radius: 10%;
 }

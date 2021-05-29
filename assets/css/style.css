@@ -130,61 +130,70 @@ section p, section li {
     background-position: center;
 }
 
-#who-is-left-list {
-    padding-top: 30px;
-    width: 33%;
-    float: left;
+.side-by-side {
+    display: flex;
+    padding: 1rem 2rem 2rem;
+    align-items: center;
 }
 
-#who-is-right-img {
+#who-is-left-list {
+    /* padding-top: 30px;
+    width: 33%;
+    float: left; */
+    margin: 50px;
+}
+
+/* #who-is-right-img {
     margin: 30px auto 50px;
     width: 66%;
-}
+} */
 
 #detail-img-one {
     width: 600px;
-    margin-right: 33%;
+    /* padding-right: 9rem; */
 }
 
-#who-is-right-img, #detail-img-one {
+/* #who-is-right-img, #detail-img-one {
     float: right;
-}
+} */
 
-#who-is-left-list li {
+/* #who-is-left-list li {
     margin-left: 33%;
     text-align: left;
-}
+} */
 
-#who-is-right-img ~ div {
+/* #who-is-right-img ~ div {
     clear: both;
-}
+} */
 
 #who-is-right-list {
-    padding-top: 30px;
+    /* padding-top: 30px;
     width: 33%;
     float: right;
-    background-color: green;
+    background-color: green; */
+    margin: 50px;
 }
 
-#who-is-right-list li {
+/* #who-is-right-list li {
     margin-right: 50%;
     text-align: left;
-}
+} */
 
-#who-is-left-img {
+/* #who-is-left-img {
     margin: 30px auto 50px;
     width: 66%;
     background-color: red;
-}
+} */
 
 #detail-img-two {
     width: 600px;
-    margin-left: 33%;
+    padding-left: 9rem;
+    /* margin-left: 33%; */
 }
 
-#who-is-left-img, #detail-img-two {
+/* #who-is-left-img, #detail-img-two {
     float: left;
-}
+} */
 
 /* where is */
 
@@ -200,19 +209,20 @@ section p, section li {
     margin: 30px 33% 50px;
 }
 
-#where-is-left {
+/* #where-is-left {
     width: 66%;
     float: left;
-}
+} */
 
-#where-is-right {
+/* #where-is-right {
     width: 33%;
     float: right;
-}
+} */
 
 #where-is-map {
-    width: 66%;
-    height: 15rem;
+    width: 30rem;
+    height: 20rem;
+    padding-right: 9rem;
 }
 
 /* who painted */
@@ -224,26 +234,27 @@ section p, section li {
     background-position: center;
 }
 
-#who-painted-left {
+/* #who-painted-left {
     width: 33%;
     float: left;
-}
+} */
 
 #leonardo-img {
     height: 600px;
-    margin-left: 33%;
+    /* margin-left: 33%;
     margin-top: 30px;
-    margin-bottom: 50px;
+    margin-bottom: 50px; */
+    padding-left: 9rem;
 }
 
 #who-painted-right {
     width: 66%;
-    float: right;
+    /* float: right; */
 }
 
-#who-painted-right > #who-painted-p-one {
+/* #who-painted-right > #who-painted-p-one {
     padding-top: 10%;
-}
+} */
 
 /* knowledge */
 
@@ -252,6 +263,22 @@ section p, section li {
     background-size: 25rem 6rem;
     background-repeat: no-repeat;
     background-position: center;
+}
+
+form {
+    font-size: 125%;
+    line-height: 2em;
+    margin: auto 9rem;
+}
+
+fieldset {
+    display: inline-block;
+    /* width: 30%; */
+    padding: 0 3rem;
+}
+
+fieldset > legend {
+    text-decoration: underline;
 }
 
 /* footer  */

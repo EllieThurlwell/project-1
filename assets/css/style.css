@@ -72,8 +72,6 @@ h1, h2 {
     background-color: rgba(0, 0, 255, 0.5);
 }
 
-
-
 .fixed-top {
     width: 100%;
     position: fixed;
@@ -92,7 +90,7 @@ h1, h2 {
     font-size: 2rem;
     /* padding: 1em; */
     margin-bottom: 1rem;
-    clear: both;
+    /* clear: both; */
     /* position: relative; */
 }
 
@@ -101,6 +99,10 @@ section p, section li {
     margin: auto 10rem;
     font-size: 125%;
     line-height: 2em;
+}
+
+.section-break {
+    line-height: 10rem;
 }
 
 /* mona lisa */
@@ -268,17 +270,31 @@ section p, section li {
 form {
     font-size: 125%;
     line-height: 2em;
-    margin: auto 9rem;
+    margin: 3rem 9rem;
 }
 
 fieldset {
-    display: inline-block;
+    /* display: inline-block; */
     /* width: 30%; */
     padding: 0 3rem;
 }
 
 fieldset > legend {
     text-decoration: underline;
+}
+
+button {
+
+    border: 1px solid #001400;
+    border-radius: 5%;
+    font-size: 85%;
+    line-height: 2em;
+    padding: 2px 5px;
+    margin-left: 2rem;
+}
+
+button:hover {
+    background-color: rgba(255, 0, 0, 0.5);
 }
 
 /* footer  */
@@ -294,7 +310,7 @@ hr {
 }
 
 footer {
-    padding-top: 5rem;
+    padding-top: 4rem;
 }
 
 .text-center {

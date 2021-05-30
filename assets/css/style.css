@@ -107,9 +107,9 @@ section p, section li {
 
 /* mona lisa */
 
-#mona-lisa {
+/* #mona-lisa {
     margin-top: 10rem;
-}
+} */
 
 #mona-lisa-img {
     width: 33%;
@@ -344,4 +344,25 @@ footer p {
 
 .social-blue i:hover {
     background-color: rgba(0, 0, 255, 0.5);
+}
+
+/* media queries */
+
+@media screen and (max-width: 1400px) {
+    .side-media-query {
+        display: block;
+        text-align: center;
+    }
+    #detail-img-two {
+        padding: 0;
+    }
+    #where-is-map {
+        padding: 2rem 0 0;
+    }
+    #leonardo-img {
+        padding: 0 0 2rem;
+    }
+    #who-painted-right {
+        width: 100%;
+    }
 }

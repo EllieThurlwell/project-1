@@ -117,7 +117,7 @@ section p, section li {
 }
 
 #mona-lisa-heading {
-    background-image: url(../images/background\ red.png);
+    background-image: url(../images/background-red.png);
     background-size: 12rem 6rem;
     background-repeat: no-repeat;
     background-position: center;
@@ -126,7 +126,7 @@ section p, section li {
 /* who is */
 
 #who-is-heading {
-    background-image: url(../images/background\ yellow.png);
+    background-image: url(../images/background-yellow.png);
     background-size: 14rem 6rem;
     background-repeat: no-repeat;
     background-position: center;
@@ -200,7 +200,7 @@ section p, section li {
 /* where is */
 
 #where-is-heading {
-    background-image: url(../images/background\ blue.png);
+    background-image: url(../images/background-blue.png);
     background-size: 17rem 6rem;
     background-repeat: no-repeat;
     background-position: center;
@@ -230,7 +230,7 @@ section p, section li {
 /* who painted */
 
 #who-painted-heading {
-    background-image: url(../images/background\ yellow.png);
+    background-image: url(../images/background-yellow.png);
     background-size: 20rem 6rem;
     background-repeat: no-repeat;
     background-position: center;
@@ -261,7 +261,7 @@ section p, section li {
 /* knowledge */
 
 #knowledge-heading {
-    background-image: url(../images/background\ red.png);
+    background-image: url(../images/background-red.png);
     background-size: 25rem 6rem;
     background-repeat: no-repeat;
     background-position: center;

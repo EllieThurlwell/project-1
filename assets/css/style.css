@@ -403,3 +403,9 @@ footer p {
         padding: 1rem 0;
     }
 }
+
+@media screen and (max-width: 600px) {
+    #detail-img-one, #detail-img-two, #louvre-img, #where-is-map {
+        width: 75%;
+    }
+}

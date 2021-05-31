@@ -1,8 +1,9 @@
 <h1 align="center">Discover Art! Mona Lisa</h1>
 
-[View the live project here.](https://elliethurlwell.github.io/project-1/index.html)
 
 This is the Discover Art! page for Mona Lisa by Leonardo da Vinci. It is designed to be an educational site for children, and a resource for parents and/or teachers to assits in early art education.
+
+[View the live project here.](https://elliethurlwell.github.io/project-1/index.html)
 
 <h2 align="center"><img src="assets/readme-assets/mock-up.png"></h2>
 
@@ -135,8 +136,8 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
     - fixed by wrapping the button in a parent div.
 -   Image in 'Where Is She?' section becomes distorted on iPad screensize.
     - fixed by moving it's css rule into the media query for the previous size of screen.
--   Positioning of one image and the form are shifted on Internet Explorer. louvre-crowd.jpg is pushed all the way to the right and the fieldsets in the form overlap eachother.
-    - not fixed - works correct in all other browsers tested
+-   Positioning of one image and the form are shifted on Internet Explorer. louvre-crowd.jpg is pushed all the way to the right and the fieldsets in the form overlap each other.
+    - not fixed - works correct in all other browsers tested.
 
 ## Deployment
 

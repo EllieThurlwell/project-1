@@ -40,23 +40,23 @@
 
 	<!-- page mona-lisa -->
     <section id="mona-lisa">
-		<div class="section-break">
+		<!-- <div class="section-break">
 			<br>
-		</div>
+		</div> -->
 		<div class="img-container">
 			<img src="assets/images/mona-lisa-main.jpg" alt="Mona Lisa by Leonardo da Vinci" id="mona-lisa-img">
 		</div>
-    	<h2 class="heading" id="mona-lisa-heading">Mona Lisa</h2>
+    	<h2 id="mona-lisa-heading">Mona Lisa</h2>
 		<p class="text-center">1503 - 1506</p>
 		<p class="text-center">by Leonardo da Vinci</p>
     </section>
 	<br>
 
 	<!-- page who-is -->
-    <section id="who-is">
-		<div class="section-break">
+    <section id="who-is" class="section-padding">
+		<!-- <div class="section-break">
 			<br>
-		</div>
+		</div> -->
     	<h2 class="heading" id="who-is-heading">Who Is She?</h2>
 		<div>
 			<p>
@@ -99,10 +99,10 @@
 	<br>
 
 	<!-- page where-is -->
-    <section id="where-is">
-		<div class="section-break">
+    <section id="where-is" class="section-padding">
+		<!-- <div class="section-break">
 			<br>
-		</div>
+		</div> -->
     	<h2 class="heading" id="where-is-heading">Where Is She?</h2>
 		<div>
 			<p>
@@ -134,10 +134,10 @@
 	<br>
 
 	<!-- page who-painted -->
-    <section id="who-painted">
-		<div class="section-break">
+    <section id="who-painted" class="section-padding">
+		<!-- <div class="section-break">
 			<br>
-		</div>
+		</div> -->
     	<h2 class="heading" id="who-painted-heading">Who Painted Her?</h2>
 		<div class="side-by-side side-media-query">
 			<div id="who-painted-left">
@@ -156,10 +156,10 @@
     </section>
 
 	<!-- page knowledge -->
-    <section id="knowledge">
-		<div class="section-break">
+    <section id="knowledge" class="section-padding">
+		<!-- <div class="section-break">
 			<br>
-		</div>
+		</div> -->
     	<h2 class="heading" id="knowledge-heading">Check Your Knowledge</h2>
 		<div>
 			<p>
@@ -214,38 +214,17 @@
 		</form>
 		<div id="button-container">
 			<!-- modal box code from w3schools -->
-		<button id="myBtn" type="submit">Check Answers</button>
-		<div id="myModal" class="modal">
-			  <div class="modal-content">
-				<span class="close">&times;</span>
-				<p>The right answers are:</p>
-				<p>France, Pablo Picasso, her smile.</p>
-			  </div>
-		</div>
-		<script>
-			var modal = document.getElementById("myModal");
-			
-			var btn = document.getElementById("myBtn");
-			
-			var span = document.getElementsByClassName("close")[0];
-			
-			btn.onclick = function() {
-			  modal.style.display = "block";
-			}
-			
-			span.onclick = function() {
-			  modal.style.display = "none";
-			}
-			
-			window.onclick = function(event) {
-			  if (event.target == modal) {
-				modal.style.display = "none";
-			  }
-			}
-		</script>
+			<button id="myBtn" type="submit">Check Answers</button>
+			<div id="myModal" class="modal">
+			  	<div class="modal-content">
+					<span class="close">&times;</span>
+					<p>The right answers are:</p>
+					<p>France, Pablo Picasso, her smile.</p>
+			  	</div>
+			</div>
 		</div>
 		<div>
-			<p>Why not try this Mona Lisa colouring worksheet and create your own amazing portrait! <a href="assets/images/mona-lisa-worksheet.pdf" target="_blank">Mona Lisa Worksheet</a></p>
+			<p id="worksheet">Why not try this Mona Lisa colouring worksheet and create your own amazing portrait! <a href="assets/images/mona-lisa-worksheet.pdf" target="_blank">Mona Lisa Worksheet</a></p>
 		</div>
     </section>
 	<br>
@@ -275,5 +254,26 @@
 			</ul>
 		</div>
     </footer>
+	<script>
+		var modal = document.getElementById("myModal");
+	
+		var btn = document.getElementById("myBtn");
+	
+		var span = document.getElementsByClassName("close")[0];
+	
+		btn.onclick = function() {
+		  modal.style.display = "block";
+		}
+	
+		span.onclick = function() {
+		  modal.style.display = "none";
+		}
+	
+		window.onclick = function(event) {
+		  if (event.target == modal) {
+			modal.style.display = "none";
+		  }
+		}
+	</script>
 </body>
 </html>

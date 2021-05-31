@@ -21,8 +21,8 @@ h1, h2 {
 /* logo and nav */
 
 #logo > img {
-    height: 150px;
-    padding-left: 2rem;
+    height: 80px;
+    /* padding-left: 2rem; */
 }
 
 #menu li {
@@ -50,14 +50,16 @@ h1, h2 {
 }
 
 .fixed-top {
-    width: 100%;
-    position: fixed;
+    /* width: 100%; */
+    position: sticky;
     top: 0;
     background-color: #ffffff;
     display: flex;
     align-items: center;
     justify-content: space-between;
     box-shadow: 4px 1px 10px 1px grey;
+    padding: 0 2rem;
+    padding-right: 2rem;
 }
 
 /* body sections */
@@ -65,21 +67,29 @@ h1, h2 {
 .heading {
     text-align: center;
     font-size: 2rem;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
 }
 
 section p, section li {
     text-align: left;
-    margin: auto 10rem;
-    font-size: 125%;
+    /* margin: auto 10rem; */
+    font-size: 1.25rem;
     line-height: 2em;
 }
 
-.section-break {
-    line-height: 10rem;
+.section-padding {
+    padding: 70px 80px;
 }
 
+/* .section-break {
+    line-height: 10rem;
+} */
+
 /* mona lisa */
+
+#mona-lisa {
+    padding: 4rem;
+}
 
 .img-container {
     display: flex;
@@ -91,6 +101,8 @@ section p, section li {
 }
 
 #mona-lisa-heading {
+    text-align: center;
+    font-size: 2rem;
     background-image: url(../images/background-red.png);
     background-size: 12rem 6rem;
     background-repeat: no-repeat;
@@ -108,26 +120,27 @@ section p, section li {
 
 .side-by-side {
     display: flex;
-    padding: 1rem 2rem 2rem;
+    padding: 4rem;
     align-items: center;
+    justify-content: space-between;
 }
 
-#who-is-left-list {
+/* #who-is-left-list {
     margin: 50px;
-}
+} */
 
 #detail-img-one {
     width: 600px;
-    padding-right: 9rem;
+    /* padding-right: 9rem; */
 }
 
-#who-is-right-list {
+/* #who-is-right-list {
     margin: 50px;
-}
+} */
 
 #detail-img-two {
     width: 600px;
-    padding-left: 9rem;
+    /* padding-left: 9rem; */
 }
 
 /* where is */
@@ -141,13 +154,14 @@ section p, section li {
 
 #louvre-img {
     width: 600px;
-    margin: 30px auto 50px;
+    margin: 30px auto;
 }
 
 #where-is-map {
     width: 30rem;
     height: 20rem;
-    padding-right: 9rem;
+    /* padding-right: 9rem; */
+    margin-left: 5rem;
 }
 
 /* who painted */
@@ -161,12 +175,13 @@ section p, section li {
 
 #leonardo-img {
     height: 600px;
-    padding-left: 9rem;
+    /* padding-left: 9rem; */
+    margin-right: 5rem;
 }
 
-#who-painted-right {
+/* #who-painted-right {
     width: 66%;
-}
+} */
 
 /* knowledge */
 
@@ -178,13 +193,13 @@ section p, section li {
 }
 
 form {
-    font-size: 125%;
+    font-size: 1.25rem;
     line-height: 2em;
-    margin: 3rem 9rem;
+    margin: 1rem 9rem;
 }
 
 fieldset {
-    padding: 0 3rem;
+    padding: 2rem;
 }
 
 fieldset > legend {
@@ -233,7 +248,7 @@ fieldset > legend {
 button {
     border: 1px solid #001400;
     border-radius: 5%;
-    font-size: 100%;
+    font-size: 1.25rem;
     line-height: 2em;
     padding: 2px 5px;
 }
@@ -245,7 +260,12 @@ button:hover {
 #button-container {
     display: flex;
     justify-content: center;
-    padding-bottom: 2rem;
+    /* padding-bottom: 2rem; */
+    margin-bottom: 3rem;
+}
+
+#worksheet {
+    text-align: center;
 }
 
 /* footer  */

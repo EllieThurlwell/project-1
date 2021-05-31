@@ -299,7 +299,7 @@ footer p {
         display: block;
         text-align: center;
     }
-    #detail-img-two {
+    #detail-img-one, #detail-img-two {
         padding: 0;
     }
     #where-is-map {
@@ -349,6 +349,10 @@ footer p {
 }
 
 @media screen and (max-width: 600px) {
+    .img-container {
+        display: block;
+        text-align: center;
+    }
     #mona-lisa-img, #detail-img-one, #detail-img-two, #louvre-img, #where-is-map, #leonardo-img {
         height: auto;
         width: 75%;

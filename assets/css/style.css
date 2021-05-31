@@ -339,6 +339,10 @@ footer p {
 }
 
 @media screen and (max-width: 850px) {
+    .img-container {
+        display: block;
+        text-align: center;
+    }
     section p, section li {
         margin: auto 2rem;
     }
@@ -357,10 +361,6 @@ footer p {
 }
 
 @media screen and (max-width: 600px) {
-    .img-container {
-        display: block;
-        text-align: center;
-    }
     #mona-lisa-img, #detail-img-one, #detail-img-two, #louvre-img, #where-is-map, #leonardo-img {
         height: auto;
         width: 75%;

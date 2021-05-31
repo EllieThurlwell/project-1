@@ -1,10 +1,10 @@
 <h1 align="center">Discover Art! Mona Lisa</h1>
 
-[View the live project here.](#)
+[View the live project here.](https://elliethurlwell.github.io/project-1/index.html)
 
 This is the Discover Art! page for Mona Lisa by Leonardo da Vinci. It is designed to be an educational site for children, and a resource for parents and/or teachers to assits in early art education.
 
-<h2 align="center"><img src="https://i.ibb.co/TYvTXz1/Example-CI.png"></h2>
+<h2 align="center"><img src="assets/readme-assets/mock-up.png"></h2>
 
 ## User Experience (UX)
 
@@ -127,9 +127,11 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 -   Friends and family members were asked to review the site to point out any issues. 
 -   Two friends with both art and teaching backgrounds were asked to review the site and responded that the content is relevant and well structured for the intended audience and purpose. 
 
-### Known Bugs
+### Bugs
 
 -   When completing the form element and clicking the 'Check Answers' button for the first time the site reloads. Any time after this the button correctly displays the modal box.
+    - fixed by wrapping the button in a parent div.
+- Image in 'Where Is She?' section becomes distorted on iPad screensize.
 
 ## Deployment
 

@@ -233,14 +233,19 @@ fieldset > legend {
 button {
     border: 1px solid #001400;
     border-radius: 5%;
-    font-size: 85%;
+    font-size: 100%;
     line-height: 2em;
     padding: 2px 5px;
-    margin-left: 2rem;
 }
 
 button:hover {
     background-color: rgba(255, 0, 0, 0.5);
+}
+
+#button-container {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 2rem;
 }
 
 /* footer  */
@@ -345,6 +350,9 @@ footer p {
     }
     #between-img {
         padding: 1rem 0;
+    }
+    .social-media i {
+        font-size: 1.5rem;
     }
 }
 

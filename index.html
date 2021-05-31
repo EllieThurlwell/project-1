@@ -211,38 +211,40 @@
 					<label for="hair">Her hair</label>
 				</fieldset>
 			</div>
-			<br>
-			<!-- modal box code from w3schools -->
-			<button id="myBtn">Check Answers</button>
-			<div id="myModal" class="modal">
-  				<div class="modal-content">
-    				<span class="close">&times;</span>
-    				<p>The right answers are:</p>
-    				<p>France, Pablo Picasso, her smile.</p>
-				  </div>
-			</div>
-			<script>
-				var modal = document.getElementById("myModal");
-				
-				var btn = document.getElementById("myBtn");
-				
-				var span = document.getElementsByClassName("close")[0];
-				
-				btn.onclick = function() {
-				  modal.style.display = "block";
-				}
-				
-				span.onclick = function() {
-				  modal.style.display = "none";
-				}
-				
-				window.onclick = function(event) {
-				  if (event.target == modal) {
-					modal.style.display = "none";
-				  }
-				}
-			</script>
+			<!-- <br> -->
 		</form>
+		<div id="button-container">
+			<!-- modal box code from w3schools -->
+		<button id="myBtn" type="submit">Check Answers</button>
+		<div id="myModal" class="modal">
+			  <div class="modal-content">
+				<span class="close">&times;</span>
+				<p>The right answers are:</p>
+				<p>France, Pablo Picasso, her smile.</p>
+			  </div>
+		</div>
+		<script>
+			var modal = document.getElementById("myModal");
+			
+			var btn = document.getElementById("myBtn");
+			
+			var span = document.getElementsByClassName("close")[0];
+			
+			btn.onclick = function() {
+			  modal.style.display = "block";
+			}
+			
+			span.onclick = function() {
+			  modal.style.display = "none";
+			}
+			
+			window.onclick = function(event) {
+			  if (event.target == modal) {
+				modal.style.display = "none";
+			  }
+			}
+		</script>
+		</div>
 		<div>
 			<p>Why not try this Mona Lisa colouring worksheet and create your own amazing portrait! <a href="assets/images/mona-lisa-worksheet.pdf" target="_blank">Mona Lisa Worksheet</a></p>
 		</div>

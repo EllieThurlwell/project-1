@@ -54,17 +54,17 @@ This is the Discover Art! page for Mona Lisa by Leonardo da Vinci. It is designe
 
 ### Frameworks, Libraries & Programs Used
 
-1. [Google Fonts:](https://fonts.google.com/)
+- [Google Fonts:](https://fonts.google.com/)
     - Google fonts were used to import the 'Gloria Hallelujah' and 'Montserrat" fonts into the style.css file.
-2. [Font Awesome:](https://fontawesome.com/)
+- [Font Awesome:](https://fontawesome.com/)
     - Font Awesome was used to add social media icons to the footer.
-3. [Git](https://git-scm.com/)
+- [Git](https://git-scm.com/)
     - Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
-4. [GitHub:](https://github.com/)
+- [GitHub:](https://github.com/)
     - GitHub is used to store the projects code after being pushed from Git.
-1. [Photoshop:](https://www.adobe.com/ie/products/photoshop.html)
+- [Photoshop:](https://www.adobe.com/ie/products/photoshop.html)
     - Photoshop was used to create the logo and icon, heading backgrounds, pdf worksheet, and to resize images.
-1. [Balsamiq:](https://balsamiq.com/)
+- [Balsamiq:](https://balsamiq.com/)
     - Balsamiq was used to create the wireframes during the design process.
 
 ## Testing
@@ -122,16 +122,21 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 ### Further Testing
 
--   The Website was tested on Google Chrome and Safari browsers on both desktop and mobile, and 
+-   The Website was tested on Google Chrome and Safari browsers on both desktop and mobile, and Firefox, Microsoft Edge and Internet Explorer on desktop.
 -   The website was viewed on a variety of devices including MacBook, laptop, iPad, iPhone 7 plus, iPhone 12 mini, Samsung Galaxy Note8 and Huawei P20.
 -   Friends and family members were asked to review the site to point out any issues. 
 -   Two friends with both art and teaching backgrounds were asked to review the site and responded that the content is relevant and well structured for the intended audience and purpose. 
 
 ### Bugs
 
+-   Pages and linked sections begin at the top of the viewport and are therefore hidden behind the fixed header.
+    - fixed by creating the section-break class and setting it's size to the same as the header.
 -   When completing the form element and clicking the 'Check Answers' button for the first time the site reloads. Any time after this the button correctly displays the modal box.
     - fixed by wrapping the button in a parent div.
-- Image in 'Where Is She?' section becomes distorted on iPad screensize.
+-   Image in 'Where Is She?' section becomes distorted on iPad screensize.
+    - fixed by moving it's css rule into the media query for the previous size of screen.
+-   Positioning of one image and the form are shifted on Internet Explorer. louvre-crowd.jpg is pushed all the way to the right and the fieldsets in the form overlap eachother.
+    - not fixed - works correct in all other browsers tested
 
 ## Deployment
 
@@ -165,7 +170,7 @@ The project was deployed to GitHub Pages using the following steps:
 
 ### Media
 
--   The usage terms of all images is either Public Domain or Creative Commons Attribution-Share Alike 4.0.
+-   The usage terms of all images is either Public Domain or Creative Commons Attribution - Share Alike 4.0.
 -   The frame for the images was purchased from [iStock](https://www.istockphoto.com/es/foto/amplio-marco-de-oro-gm162714310-23165337)
 -   All logos and graphics were created by the developed.
 -   The pdf worksheet was created by the developer.

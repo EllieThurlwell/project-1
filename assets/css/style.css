@@ -22,7 +22,6 @@ h1, h2 {
 
 #logo > img {
     height: 80px;
-    /* padding-left: 2rem; */
 }
 
 #menu li {
@@ -50,7 +49,6 @@ h1, h2 {
 }
 
 .fixed-top {
-    /* width: 100%; */
     position: sticky;
     top: 0;
     background-color: #ffffff;
@@ -60,6 +58,10 @@ h1, h2 {
     box-shadow: 4px 1px 10px 1px grey;
     padding: 0 2rem;
     padding-right: 2rem;
+}
+
+.nav .icon {
+    display: none;
 }
 
 /* body sections */
@@ -72,7 +74,6 @@ h1, h2 {
 
 section p, section li {
     text-align: left;
-    /* margin: auto 10rem; */
     font-size: 1.25rem;
     line-height: 2em;
 }
@@ -80,10 +81,6 @@ section p, section li {
 .section-padding {
     padding: 70px 80px;
 }
-
-/* .section-break {
-    line-height: 10rem;
-} */
 
 /* mona lisa */
 
@@ -125,22 +122,13 @@ section p, section li {
     justify-content: space-between;
 }
 
-/* #who-is-left-list {
-    margin: 50px;
-} */
-
 #detail-img-one {
     width: 600px;
-    /* padding-right: 9rem; */
+    
 }
-
-/* #who-is-right-list {
-    margin: 50px;
-} */
 
 #detail-img-two {
     width: 600px;
-    /* padding-left: 9rem; */
 }
 
 /* where is */
@@ -160,7 +148,6 @@ section p, section li {
 #where-is-map {
     width: 30rem;
     height: 20rem;
-    /* padding-right: 9rem; */
     margin-left: 5rem;
 }
 
@@ -175,13 +162,8 @@ section p, section li {
 
 #leonardo-img {
     height: 600px;
-    /* padding-left: 9rem; */
     margin-right: 5rem;
 }
-
-/* #who-painted-right {
-    width: 66%;
-} */
 
 /* knowledge */
 
@@ -208,17 +190,17 @@ fieldset > legend {
 
 /* modal box styling from w3schools */
 .modal {
-    display: none; /* Hidden by default */
-    position: fixed; /* Stay in place */
-    z-index: 1; /* Sit on top */
-    padding-top: 100px; /* Location of the box */
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
     left: 0;
     top: 0;
-    width: 100%; /* Full width */
-    height: 100%; /* Full height */
-    overflow: auto; /* Enable scroll if needed */
-    background-color: rgb(0,0,0); /* Fallback color */
-    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4);
 }
   
 .modal-content {
@@ -260,7 +242,6 @@ button:hover {
 #button-container {
     display: flex;
     justify-content: center;
-    /* padding-bottom: 2rem; */
     margin-bottom: 3rem;
 }
 
@@ -327,11 +308,19 @@ footer p {
     #detail-img-one, #detail-img-two {
         padding: 0;
     }
+    #who-is-left-list {
+        margin-bottom: 2rem;
+    }
+    #who-is-right-list {
+        margin-top: 2rem;
+    }
     #where-is-map {
         padding: 2rem 0 0;
+        margin-left: 0;
     }
     #leonardo-img {
         padding: 0 0 2rem;
+        margin-right: 0;
     }
     #who-painted-right {
         width: 100%;
@@ -346,10 +335,6 @@ footer p {
     #form {
         display: block;
     }
-    #logo > img {
-        height: 100px;
-        padding-left: 0;
-    }
     #menu a {
         padding: 1px 5px;
     }
@@ -363,14 +348,27 @@ footer p {
         display: block;
         text-align: center;
     }
-    section p, section li {
-        margin: auto 2rem;
+    .section-padding {
+        padding: 70px 25px;
+    }
+    section p {
+        margin: auto 1rem;
     }
     .side-media-query {
         padding: 0;
     }
+    .side-by-side {
+        padding: 2rem;
+    }
+    #who-is-leftlist, #who-is-right-list {
+        margin: 0;
+        padding: 1rem 2rem;
+    }
     form {
         margin: 3rem 1rem;
+    }
+    fieldset {
+        padding: 1rem;
     }
     #between-img {
         padding: 1rem 0;
@@ -378,15 +376,44 @@ footer p {
     .social-media i {
         font-size: 1.5rem;
     }
+    /* mobile menu styling from w3schools */
+    .nav a {
+        display: none;
+    }
+    .nav a.icon {
+        display: block;
+    }
+    .nav.responsive {
+        position: relative;
+    }
+    .nav.responsive .icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    .nav.responsive a {
+        float: none;
+        display: block;
+    }
 }
 
 @media screen and (max-width: 600px) {
-    #mona-lisa-img, #detail-img-one, #detail-img-two, #louvre-img, #where-is-map, #leonardo-img {
+    #mona-lisa-img {
         height: auto;
-        width: 75%;
+        width: 100%;
+    }
+    #detail-img-one, #detail-img-two, #louvre-img, #leonardo-img {
+        height: auto;
+        width: 90%;
     }
     #louvre-img {
         margin: 0;
         padding: 1rem 0;
+    }
+    #where-is-map {
+        width: 90%;
+    }
+    .heading{
+        font-size: 1.5rem;
     }
 }

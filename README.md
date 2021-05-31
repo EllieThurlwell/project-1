@@ -59,6 +59,8 @@ This is the Discover Art! page for Mona Lisa by Leonardo da Vinci. It is designe
     - Google fonts were used to import the 'Gloria Hallelujah' and 'Montserrat" fonts into the style.css file.
 - [Font Awesome:](https://fontawesome.com/)
     - Font Awesome was used to add social media icons to the footer.
+- [W3Schools](https://www.w3schools.com/)
+    - W3Schools tutorials were used to create responsive mobile navigation and modal box.
 - [Git](https://git-scm.com/)
     - Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
 - [GitHub:](https://github.com/)
@@ -155,7 +157,8 @@ The project was deployed to GitHub Pages using the following steps:
 
 ### Code
 
--   The code for the 'Check Answers' button came from this [W3Schools](https://www.w3schools.com/howto/howto_css_modals.asp) Modal Box tutorial.
+-   The code for the responsive mobile navigation came from this W3Schools [Responsive Top Navigation](https://www.w3schools.com/howto/howto_js_topnav_responsive.asp) tutorial.
+-   The code for the 'Check Answers' button came from this W3Schools [Modal Box](https://www.w3schools.com/howto/howto_css_modals.asp) tutorial.
 
 ### Content
 

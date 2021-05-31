@@ -17,7 +17,7 @@
             <a href="index.html" id="logo">
                 <img src="assets/images/logo.png" alt="Discover Art! logo" />
             </a>
-            <nav id="menu">
+            <nav id="menu" class="nav">
                 <ul>
                     <li class="menu-red">
                         <a href="#mona-lisa">Mona Lisa</a>
@@ -35,14 +35,13 @@
                         <a href="#knowledge">Check Your Knowledge</a>
                     </li>
                 </ul>
+				<!-- mobile menu code from w3schools -->
+				<a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fas fa-bars"></i></a>
             </nav>
         </header>
 
         <!-- page mona-lisa -->
         <section id="mona-lisa">
-            <!-- <div class="section-break">
-			<br>
-		</div> -->
             <div class="img-container">
                 <img src="assets/images/mona-lisa-main.jpg" alt="Mona Lisa by Leonardo da Vinci" id="mona-lisa-img" />
             </div>
@@ -54,9 +53,6 @@
 
         <!-- page who-is -->
         <section id="who-is" class="section-padding">
-            <!-- <div class="section-break">
-			<br>
-		</div> -->
             <h2 class="heading" id="who-is-heading">Who Is She?</h2>
             <div>
                 <p>
@@ -102,9 +98,6 @@
 
         <!-- page where-is -->
         <section id="where-is" class="section-padding">
-            <!-- <div class="section-break">
-			<br>
-		</div> -->
             <h2 class="heading" id="where-is-heading">Where Is She?</h2>
             <div>
                 <p>
@@ -146,9 +139,6 @@
 
         <!-- page who-painted -->
         <section id="who-painted" class="section-padding">
-            <!-- <div class="section-break">
-			<br>
-		</div> -->
             <h2 class="heading" id="who-painted-heading">Who Painted Her?</h2>
             <div class="side-by-side side-media-query">
                 <div id="who-painted-left">
@@ -170,9 +160,6 @@
 
         <!-- page knowledge -->
         <section id="knowledge" class="section-padding">
-            <!-- <div class="section-break">
-			<br>
-		</div> -->
             <h2 class="heading" id="knowledge-heading">Check Your Knowledge</h2>
             <div>
                 <p>
@@ -267,6 +254,18 @@
                 </ul>
             </div>
         </footer>
+		
+		<!-- javascript from w3schools -->
+		<script>
+			function myFunction() {
+			  var x = document.getElementById("menu");
+			  if (x.className === "nav") {
+				x.className += "responsive";
+			  } else {
+				x.className = "nav";
+			  }
+			}
+		</script>
         <script>
             var modal = document.getElementById("myModal");
 

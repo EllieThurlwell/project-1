@@ -8,13 +8,11 @@
 
 body {
     font-family: Montserrat, sans-serif;
-    /* font-weight: 400; */
     color: #001400;
 }
 
 h1, h2 {
     font-family: 'Gloria Hallelujah', cursive;
-    /* font-weight: 400; */
     text-transform: capitalize;
     letter-spacing: 0.1rem;
     color: #330033;
@@ -24,23 +22,8 @@ h1, h2 {
 
 #logo > img {
     height: 150px;
-    /* width: auto; */
-    /* float: left; */
     padding-left: 2rem;
-    /* margin-left: 50px; */
-    /* position: fixed; */
 }
-
-/* #menu {
-    font-size: 100%; */
-    /* padding: 1rem 1rem; */
-    /* text-align: right; */
-    /* position: fixed;
-} */
-
-/* #menu, #logo {
-    line-height: 125px;
-} */
 
 #menu li {
     display: inline-block;
@@ -49,16 +32,10 @@ h1, h2 {
 
 #menu a {
     text-decoration: none;
-    /* font-size: 100%; */
-    /* margin: 1%; */
     padding: 1rem;
     color: #330033;
     border-radius: 6%;
 }
-
-/* #menu a:hover {
-    border-bottom: 1px solid #001400;
-} */
 
 .menu-red a:hover {
     background-color: rgba(255, 0, 0, 0.5);
@@ -88,10 +65,7 @@ h1, h2 {
 .heading {
     text-align: center;
     font-size: 2rem;
-    /* padding: 1em; */
     margin-bottom: 1rem;
-    /* clear: both; */
-    /* position: relative; */
 }
 
 section p, section li {
@@ -106,10 +80,6 @@ section p, section li {
 }
 
 /* mona lisa */
-
-/* #mona-lisa {
-    margin-top: 10rem;
-} */
 
 .img-container {
     display: flex;
@@ -143,63 +113,22 @@ section p, section li {
 }
 
 #who-is-left-list {
-    /* padding-top: 30px;
-    width: 33%;
-    float: left; */
     margin: 50px;
 }
-
-/* #who-is-right-img {
-    margin: 30px auto 50px;
-    width: 66%;
-} */
 
 #detail-img-one {
     width: 600px;
-    /* padding-right: 9rem; */
+    padding-right: 9rem;
 }
-
-/* #who-is-right-img, #detail-img-one {
-    float: right;
-} */
-
-/* #who-is-left-list li {
-    margin-left: 33%;
-    text-align: left;
-} */
-
-/* #who-is-right-img ~ div {
-    clear: both;
-} */
 
 #who-is-right-list {
-    /* padding-top: 30px;
-    width: 33%;
-    float: right;
-    background-color: green; */
     margin: 50px;
 }
-
-/* #who-is-right-list li {
-    margin-right: 50%;
-    text-align: left;
-} */
-
-/* #who-is-left-img {
-    margin: 30px auto 50px;
-    width: 66%;
-    background-color: red;
-} */
 
 #detail-img-two {
     width: 600px;
     padding-left: 9rem;
-    /* margin-left: 33%; */
 }
-
-/* #who-is-left-img, #detail-img-two {
-    float: left;
-} */
 
 /* where is */
 
@@ -214,16 +143,6 @@ section p, section li {
     width: 600px;
     margin: 30px auto 50px;
 }
-
-/* #where-is-left {
-    width: 66%;
-    float: left;
-} */
-
-/* #where-is-right {
-    width: 33%;
-    float: right;
-} */
 
 #where-is-map {
     width: 30rem;
@@ -240,27 +159,14 @@ section p, section li {
     background-position: center;
 }
 
-/* #who-painted-left {
-    width: 33%;
-    float: left;
-} */
-
 #leonardo-img {
     height: 600px;
-    /* margin-left: 33%;
-    margin-top: 30px;
-    margin-bottom: 50px; */
     padding-left: 9rem;
 }
 
 #who-painted-right {
     width: 66%;
-    /* float: right; */
 }
-
-/* #who-painted-right > #who-painted-p-one {
-    padding-top: 10%;
-} */
 
 /* knowledge */
 
@@ -278,8 +184,6 @@ form {
 }
 
 fieldset {
-    /* display: inline-block; */
-    /* width: 30%; */
     padding: 0 3rem;
 }
 

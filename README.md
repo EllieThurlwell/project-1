@@ -1,59 +1,169 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+<h1 align="center">Discover Art! Mona Lisa</h1>
 
-Welcome Ellie Thurlwell,
+[View the live project here.](#)
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use.
+This is the Discover Art! page for Mona Lisa by Leonardo da Vinci. It is designed to be an educational site for children, and a resource for parents and/or teachers to assits in early art education.
 
-## Gitpod Reminders
+<h2 align="center"><img src="https://i.ibb.co/TYvTXz1/Example-CI.png"></h2>
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+## User Experience (UX)
 
-`python3 -m http.server`
+-   ### User stories
 
-A blue button should appear to click: _Make Public_,
+    -   #### First Time Visitor Goals
 
-Another blue button should appear to click: _Open Browser_.
+        1. As a First Time Visitor, I want to be able to view the artwork this page is focused on.
+        2. As a First Time Visitor, I want to be able to easily navigate throughout the site to discover all the different information provided.
+        3. As a First Time Visitor, I want to be able to learn something without it requiring a lot of effort.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+    -   #### Returning Visitor Goals
 
-A blue button should appear to click: _Make Public_,
+        1. As a Returning Visitor, I want to delve deeper into the information and spend time on the site.
+        2. As a Returning Visitor, I want to be prompted to engage with the site.
+        3. As a Returning Visitor, I want to be able to move my learning forward with more resources provided or recommended.
+        4. As a Returning Visitor, I want to find community links.
 
-Another blue button should appear to click: _Open Browser_.
+-   ### Design
+    -   #### Colour Scheme
+        -   The main colours used across the site are the primary colours red, blue and yellow. The colours of the heading elements are a dark purple colour (#330033) and all other text is a dark green (#001400), both found in the painting Mona Lisa.
+    -   #### Typography
+        -   Montserrat is the main font used throughout the website with Sans Serif as the fallback font. Montserrat is clean and easy to read, appropriate for a younger target audience. The line spacing applied increases this ease. Gloria Hallelujah is the font for all headings with Cursive as the fallback font. It has fun and childlike characteristics and resembles handwriting, making it appropriate for the subject matter.
+    -   #### Imagery
+        -   Imagery is key for the purpose of this website. When initially loaded the main image of Mona Lisa is positioned centrally with no distractions, clearly illustrating the focus of the site. More images appear alongside the relevant text content which provides some visual learning and breaks up the content. 
+        -   The paint splatter design of the Discover Art! logo continues throughout the page in the background of all headings. This adds visual consistency and a coherent identity. 
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+*   ### Wireframes
 
-To log into the Heroku toolbelt CLI:
+    -   Home Page Wireframe for desktop and mobile view, with suggestion of scrollable content.
+    <h2 align="center"><img src="assets/readme-assets/wireframes.png"></h2>
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+## Features
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidently make it public then you can create a new one with _Regenerate API Key_.
+-   Responsive across a variety of screen sizes
 
-## Updates Since The Instructional Video
+-   Interactive elements
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+-   Downloadable content
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+## Technologies Used
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+### Languages Used
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+-   [HTML5](https://en.wikipedia.org/wiki/HTML5)
+-   [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+### Frameworks, Libraries & Programs Used
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+1. [Google Fonts:](https://fonts.google.com/)
+    - Google fonts were used to import the 'Gloria Hallelujah' and 'Montserrat" fonts into the style.css file.
+2. [Font Awesome:](https://fontawesome.com/)
+    - Font Awesome was used to add social media icons to the footer.
+3. [Git](https://git-scm.com/)
+    - Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
+4. [GitHub:](https://github.com/)
+    - GitHub is used to store the projects code after being pushed from Git.
+1. [Photoshop:](https://www.adobe.com/ie/products/photoshop.html)
+    - Photoshop was used to create the logo and icon, heading backgrounds, pdf worksheet, and to resize images.
+1. [Balsamiq:](https://balsamiq.com/)
+    - Balsamiq was used to create the wireframes during the design process.
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+## Testing
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+-   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - no errors
+-   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - no errors
+-   [Lighthouse](https://developers.google.com/web/tools/lighthouse) - Performance: 98, Accessibility: 100, Best Practices: 100, SEO: 100.
+<h2 align="center"><img src="assets/readme-assets/validator-results.png"></h2>
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+### Testing User Stories from User Experience (UX) Section
 
----
+-   #### First Time Visitor Goals
 
-Happy coding!
+    1. As a First Time Visitor, I want to be able to view the artwork this page is focused on.
+
+        - Upon entering the site, users are greeted with a clear, good quality image of the painting Mona Lisa. 
+        - The heading and paragraph below identify the image in a clear and straightforward manner.
+
+    2. As a First Time Visitor, I want to be able to easily navigate throughout the site to discover all the different information provided.
+
+        - The site header clearly displays the navigation links to the different sections of the site. They have hover over styling to catch the users attention.
+        - The website is a single page site to allow the user to scroll and explore the content. 
+        - When hovered over, the background colour of the navigation links correspond to the background graphic of that section's heading. 
+
+    3. As a First Time Visitor, I want to be able to learn something without it requiring a lot of effort.
+
+        - The content is broken down into sections and further separated into easy to digest chunks of information.
+        - Bullet point lists allow facts to be visible and stand out on the page.
+
+-   #### Returning Visitor Goals
+
+    1. As a Returning Visitor, I want to delve deeper into the information and spend time on the site.
+
+        - All information is clearly laid out so the user can easily navegate to what interests them most.
+        - The scrolling nature of the site makes it easy to move between and compare facts from different sections, however the user decides. 
+
+    2. As a Returning Visitor, I want to be prompted to engage with the site.
+
+        - The 'Check Your Knowledge' section is so named to prompt the user to engage with the content.
+        - It contains a short quiz in which the user can select one answer and then view the correct answers.
+        - The 'Check Answers' button has a hover over background colour to catch the user's attention.
+        - In the 'Where Is She?' section the user is prompted to zoom out on the embedded map.
+
+    3. As a Returning Visitor, I want to be able to move my learning forward with more resources provided or recommended.
+
+        - The user is prompted to try a colouring worksheet after the quiz. This is in the form of a pdf which opens in a new tab and which they are able to download and/or print. 
+        - The text in the footer reminds the user of the other lessons and resources they provide.
+
+    4. As a Returning Visitor, I want to find community links.
+
+        - The footer contains icon links to social media channels for Discover Art!
+        - These links have the same hover over styling as the navegation links which makes them familiar and understanable for the user.
+
+### Further Testing
+
+-   The Website was tested on Google Chrome and Safari browsers on both desktop and mobile, and 
+-   The website was viewed on a variety of devices including MacBook, laptop, iPad, iPhone 7 plus, iPhone 12 mini, Samsung Galaxy Note8 and Huawei P20.
+-   Friends and family members were asked to review the site to point out any issues. 
+-   Two friends with both art and teaching backgrounds were asked to review the site and responded that the content is relevant and well structured for the intended audience and purpose. 
+
+### Known Bugs
+
+-   When completing the form element and clicking the 'Check Answers' button for the first time the site reloads. Any time after this the button correctly displays the modal box.
+
+## Deployment
+
+### GitHub Pages
+
+The project was deployed to GitHub Pages using the following steps:
+
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/EllieThurlwell/project-1)
+2. At the top of the Repository (not top of page), locate the "Settings" Button on the menu.
+3. On the lefthand menu locate the "Pages" button.
+4. Under "Source", click the dropdown called "None" and select "Master Branch". Click "Save".
+5. The page will automatically refresh and provide a link to the [published site](https://elliethurlwell.github.io/project-1/).
+
+## Credits
+
+### Code
+
+-   The code for the 'Check Answers' button came from this [W3Schools](https://www.w3schools.com/howto/howto_css_modals.asp) Modal Box tutorial.
+
+### Content
+
+-   All content was written by the developer.
+
+-   Research was carried out on these sites
+    -   https://kids.kiddle.co/Leonardo_da_Vinci
+    -   https://kids.kiddle.co/Mona_Lisa
+    -   https://www.mentalfloss.com/article/62280/14-things-you-didnt-know-about-mona-lisa
+    -   https://www.leonardodavinci.net/the-mona-lisa.jsp
+    -   https://www.britannica.com/topic/Mona-Lisa-painting/The-Mona-Lisa-and-its-influence
+    -   https://kidzfeed.com/mona-lisa-facts-for-kids/
+
+### Media
+
+-   The usage terms of all images is either Public Domain or Creative Commons Attribution-Share Alike 4.0.
+-   The frame for the images was purchased from [iStock](https://www.istockphoto.com/es/foto/amplio-marco-de-oro-gm162714310-23165337)
+-   All logos and graphics were created by the developed.
+-   The pdf worksheet was created by the developer.

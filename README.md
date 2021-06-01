@@ -1,7 +1,7 @@
 <h1 align="center">Discover Art! Mona Lisa</h1>
 
 
-This is the Discover Art! page for Mona Lisa by Leonardo da Vinci. It is designed to be an educational site for children, and a resource for parents and/or teachers to assits in early art education.
+This is the Discover Art! page for Mona Lisa by Leonardo da Vinci. It is designed to be an educational site for children and a resource for parents and/or teachers to assits in early art education.
 
 [View the live project here.](https://elliethurlwell.github.io/project-1/index.html)
 
@@ -87,17 +87,20 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
         - Upon entering the site, users are greeted with a clear, good quality image of the painting Mona Lisa. 
         - The heading and paragraph below identify the image in a clear and straightforward manner.
+    <h2 align="center"><img src="assets/readme-assets/first-time-one.png"></h2>
 
     2. As a First Time Visitor, I want to be able to easily navigate throughout the site to discover all the different information provided.
 
         - The site header clearly displays the navigation links to the different sections of the site. They have hover over styling to catch the users attention.
         - The website is a single page site to allow the user to scroll and explore the content. 
         - When hovered over, the background colour of the navigation links correspond to the background graphic of that section's heading. 
+    <h2 align="center"><img src="assets/readme-assets/first-time-two.png"></h2>
 
     3. As a First Time Visitor, I want to be able to learn something without it requiring a lot of effort.
 
         - The content is broken down into sections and further separated into easy to digest chunks of information.
         - Bullet point lists allow facts to be visible and stand out on the page.
+    <h2 align="center"><img src="assets/readme-assets/first-time-three.png"></h2>
 
 -   #### Returning Visitor Goals
 
@@ -105,6 +108,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
         - All information is clearly laid out so the user can easily navegate to what interests them most.
         - The scrolling nature of the site makes it easy to move between and compare facts from different sections, however the user decides. 
+    <h2 align="center"><img src="assets/readme-assets/returning-one.png"></h2>
 
     2. As a Returning Visitor, I want to be prompted to engage with the site.
 
@@ -112,16 +116,19 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
         - It contains a short quiz in which the user can select one answer and then view the correct answers.
         - The 'Check Answers' button has a hover over background colour to catch the user's attention.
         - In the 'Where Is She?' section the user is prompted to zoom out on the embedded map.
+    <h2 align="center"><img src="assets/readme-assets/returning-two.png"></h2>
 
     3. As a Returning Visitor, I want to be able to move my learning forward with more resources provided or recommended.
 
         - The user is prompted to try a colouring worksheet after the quiz. This is in the form of a pdf which opens in a new tab and which they are able to download and/or print. 
         - The text in the footer reminds the user of the other lessons and resources they provide.
+    <h2 align="center"><img src="assets/readme-assets/returning-three.png"></h2>
 
     4. As a Returning Visitor, I want to find community links.
 
         - The footer contains icon links to social media channels for Discover Art!
         - These links have the same hover over styling as the navegation links which makes them familiar and understanable for the user.
+    <h2 align="center"><img src="assets/readme-assets/returning-four.png"></h2>
 
 ### Further Testing
 
@@ -133,7 +140,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 ### Bugs
 
 -   Pages and linked sections begin at the top of the viewport and are therefore hidden behind the fixed header.
-    - fixed by creating the section-break class and setting it's size to the same as the header.
+    - fixed by creating the section-padding class and setting it's size to clear the header.
 -   When completing the form element and clicking the 'Check Answers' button for the first time the site reloads. Any time after this the button correctly displays the modal box.
     - fixed by wrapping the button in a parent div.
 -   Image in 'Where Is She?' section becomes distorted on iPad screensize.
@@ -157,6 +164,8 @@ The project was deployed to GitHub Pages using the following steps:
 
 ### Code
 
+-   Gitpod workspace came from this Code Institute [template](https://github.com/Code-Institute-Org/gitpod-full-template).
+-   Layout of README file came from this Code Institute [sample](https://github.com/Code-Institute-Solutions/SampleREADME).
 -   The code for the responsive mobile navigation came from this W3Schools [Responsive Top Navigation](https://www.w3schools.com/howto/howto_js_topnav_responsive.asp) tutorial.
 -   The code for the 'Check Answers' button came from this W3Schools [Modal Box](https://www.w3schools.com/howto/howto_css_modals.asp) tutorial.
 

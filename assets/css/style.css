@@ -314,6 +314,9 @@ footer p {
     #who-is-right-list {
         margin-top: 2rem;
     }
+    .side-by-side {
+        padding: 0;
+    }
     #where-is-map {
         padding: 2rem 0 0;
         margin-left: 0;
@@ -357,10 +360,10 @@ footer p {
     .side-media-query {
         padding: 0;
     }
-    .side-by-side {
+    /* .side-by-side {
         padding: 2rem;
-    }
-    #who-is-leftlist, #who-is-right-list {
+    } */
+    #who-is-left-list, #who-is-right-list {
         margin: 0;
         padding: 1rem 2rem;
     }

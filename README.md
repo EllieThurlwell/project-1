@@ -3,7 +3,7 @@
 
 This is the Discover Art! page for Mona Lisa by Leonardo da Vinci. It is designed to be an educational site for children and a resource for parents and/or teachers to assits in early art education.
 
-[View the live project here.](https://elliethurlwell.github.io/project-1/index.html)
+[View the live project here.](https://elliethurlwell.github.io/project1-discoverart/index.html)
 
 <h2 align="center"><img src="assets/readme-assets/mock-up.png"></h2>
 
@@ -154,11 +154,11 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 The project was deployed to GitHub Pages using the following steps:
 
-1. Log in to GitHub and locate the [GitHub Repository](https://github.com/EllieThurlwell/project-1)
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/EllieThurlwell/project1-discoverart)
 2. At the top of the Repository (not top of page), locate the "Settings" Button on the menu.
 3. On the lefthand menu locate the "Pages" button.
 4. Under "Source", click the dropdown called "None" and select "Master Branch". Click "Save".
-5. The page will automatically refresh and provide a link to the [published site](https://elliethurlwell.github.io/project-1/).
+5. The page will automatically refresh and provide a link to the [published site](https://elliethurlwell.github.io/project1-discoverart/).
 
 ## Credits
 

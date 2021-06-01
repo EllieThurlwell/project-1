@@ -245,10 +245,6 @@ button:hover {
     margin-bottom: 3rem;
 }
 
-#worksheet {
-    text-align: center;
-}
-
 /* footer  */
 
 hr {
@@ -271,7 +267,7 @@ footer {
 }
 
 footer p {
-    font-size: 125%;
+    font-size: 1.25rem;
 }
 
 .social-media > li {
@@ -360,9 +356,6 @@ footer p {
     .side-media-query {
         padding: 0;
     }
-    /* .side-by-side {
-        padding: 2rem;
-    } */
     #who-is-left-list, #who-is-right-list {
         margin: 0;
         padding: 1rem 2rem;
